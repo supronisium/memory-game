@@ -1,0 +1,34 @@
+[
+  {
+    "name": "wind",
+    "picture": "wind.svg"
+  },
+  {
+    "name": "water",
+    "picture": "water.svg"
+  },
+    {
+    "name": "sand",
+    "picture": "sand.svg"
+  },
+    {
+    "name": "grass",
+    "picture": "grass.svg"
+  },
+    {
+    "name": "tree",
+    "picture": "tree.svg"
+  },
+    {
+    "name": "fire",
+    "picture": "fire.svg"
+  },
+    {
+    "name": "iron",
+    "picture": "iron.svg"
+  },
+    {
+    "name": "door",
+    "picture": "door.svg"
+  }
+]

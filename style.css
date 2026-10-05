@@ -1,0 +1,32 @@
+/* color variables */
+/* fonts variables */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  transition-duration: 0.8s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 16px "Inter";
+  background-color: #E4F0D7;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font: 400 normal 16px/1.5 "Inter";
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
