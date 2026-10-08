@@ -52,11 +52,11 @@ header {
   border-radius: 5px;
 }
 
-.btn--lider {
+.btn--lider, .btn-closeModal {
   background-color: #9885BC;
 }
 
-.btn--new {
+.btn--new, .btn-close {
   background-color: #85BABC;
 }
 
@@ -87,39 +87,40 @@ header {
 .card-item div.open {
   display: flex;
   align-items: center;
-  height: 200px;
-  width: 200px;
+  flex: 1;
+  width: 100%;
+  height: 100%;
 }
 
-#card01 div {
+#card01 div.open {
   background: #E4F0D7 url(assets/door.svg) no-repeat center center;
 }
 
-#card02 div {
+#card02 div.open {
   background: #E4F0D7 url(assets/fire.svg) no-repeat center center;
 }
 
-#card03 div {
+#card03 div.open {
   background: #E4F0D7 url(assets/grass.svg) no-repeat center center;
 }
 
-#card04 div {
+#card04 div.open {
   background: #E4F0D7 url(assets/iron.svg) no-repeat center center;
 }
 
-#card05 div {
+#card05 div.open {
   background: #E4F0D7 url(assets/sand.svg) no-repeat center center;
 }
 
-#card06 div {
+#card06 div.open {
   background: #E4F0D7 url(assets/tree.svg) no-repeat center center;
 }
 
-#card07 div {
+#card07 div.open {
   background: #E4F0D7 url(assets/water.svg) no-repeat center center;
 }
 
-#card08 div {
+#card08 div.open {
   background: #E4F0D7 url(assets/wind.svg) no-repeat center center;
 }
 
@@ -140,6 +141,38 @@ footer span {
 
 .count-number, .count-pairs {
   color: #85BABC;
+}
+
+.modal-win {
+  background-color: #FFFFFF;
+  border: 2px solid #E4F0D7;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-win.show {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.win {
+  font: 600 30px "Inter";
+  padding: 30px 30px 0 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal-win .btn {
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
