@@ -1,0 +1,178 @@
+/* color variables */
+/* fonts variables */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  transition-duration: 0.8s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 400 16px "Inter";
+  background-color: #F6F9F3;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font: 400 normal 16px/1.5 "Inter";
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 600px;
+  margin: 40px auto;
+  display: flex;
+}
+
+.name {
+  font: 30px "Inter";
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  font: 300 20px "Inter";
+  display: flex;
+  padding: 7px 20px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn--lider, .btn-closeModal {
+  background-color: #9885BC;
+}
+
+.btn--new, .btn-close {
+  background-color: #85BABC;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 12px;
+  max-width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.card-item {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.card-item div {
+  display: none;
+}
+
+.card-item div.open {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+#card01 div.open {
+  background: #E4F0D7 url(assets/door.svg) no-repeat center center;
+}
+
+#card02 div.open {
+  background: #E4F0D7 url(assets/fire.svg) no-repeat center center;
+}
+
+#card03 div.open {
+  background: #E4F0D7 url(assets/grass.svg) no-repeat center center;
+}
+
+#card04 div.open {
+  background: #E4F0D7 url(assets/iron.svg) no-repeat center center;
+}
+
+#card05 div.open {
+  background: #E4F0D7 url(assets/sand.svg) no-repeat center center;
+}
+
+#card06 div.open {
+  background: #E4F0D7 url(assets/tree.svg) no-repeat center center;
+}
+
+#card07 div.open {
+  background: #E4F0D7 url(assets/water.svg) no-repeat center center;
+}
+
+#card08 div.open {
+  background: #E4F0D7 url(assets/wind.svg) no-repeat center center;
+}
+
+footer {
+  width: 600px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+.count-moves {
+  color: #9885BC;
+}
+
+.count-number, .count-pairs {
+  color: #85BABC;
+}
+
+.modal-win {
+  background-color: #FFFFFF;
+  border: 2px solid #E4F0D7;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-win.show {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.win {
+  font: 600 30px "Inter";
+  padding: 30px 30px 0 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.modal-win .btn {
+  margin: 0 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
